@@ -1,0 +1,167 @@
+@media only screen and (min-width: 700px) {
+    .container{
+        width:auto;
+        display:flex;
+        flex-direction: column;   
+        color:white;
+        font-family: 'Secular One', sans-serif;
+        font-size:12px;
+        height:auto;
+        margin-left:10%;
+    }}
+    @media only screen and (max-width: 700px) {
+        .container{
+            width:auto;
+            display:flex;
+            flex-direction: column;   
+            color:white;
+            font-family: 'Secular One', sans-serif;
+            font-size:8px;
+            height:auto;
+            margin-left:25%;
+        }}
+    @media only screen and (min-width: 700px) {    
+    .box{
+        height:1.5vh;
+        border-radius: 25px;
+        background-color: rgb(255, 234, 117);
+        width:20%;
+        overflow: hidden;
+        margin:0.25%;
+        padding:1%;
+        box-shadow: 15px 0px 0px 0px rgb(59, 59, 59);
+        text-decoration: none;
+        color:rgb(0, 0, 0);
+    }}
+    @media only screen and (max-width: 700px) {    
+        .box{
+            
+          
+            box-shadow: 10px 0px 0px 0px rgb(181, 157, 85);
+            text-decoration: none;
+            color:rgb(255,234,117);
+            height:100%;
+            border-radius: 0px;
+            width:80%;
+            overflow: hidden;
+            margin:1%;
+            background-color: rgb(128, 83, 83);
+            border:5px solid rgb(255, 102, 102);
+            padding:1.5%;
+            margin-left:25%;
+        }}
+
+        .box {
+            width: 150px !important;
+            margin-left: 2px;
+          }
+
+    @media only screen and (min-width: 700px) {   
+    .box:hover{
+        height:100%;
+        border-radius: 0px;
+        width:80%;
+        overflow: hidden;
+        margin:0.2%;
+        background-color: rgb(255, 255, 255);
+        border:5px solid rgb(255,102,102);
+        padding:1.5%;
+        animation:box1 0.25s forwards ease-in-out;
+    }}
+    @media only screen and (min-width: 700px) { 
+    .title{
+        z-index: -1;
+        position:sticky;
+        right:0%;
+        margin-left:35%;
+        top:50px;
+        font-family: 'Secular One', sans-serif;
+        font-size: 6vw;
+        opacity: 0;
+        animation:title 2s 0s forwards ease-in-out;
+    }}
+    @media only screen and (max-width: 700px) { 
+        .title{
+            z-index: 1;
+            position:sticky;
+            right:0%;
+            margin-left:10%;
+            top:0px;
+            font-family: 'Secular One', sans-serif;
+            font-size: 10vw;
+            opacity: 0;
+            animation:title 2s 0s forwards ease-in-out;
+            
+        background-color: white;
+        }}
+    @media only screen and (min-width: 700px) { 
+    .title2{
+        z-index: -1;
+        position:sticky;
+        right:0%;
+        font-family: 'Secular One', sans-serif;
+        font-size: 1.5vw;
+    }}
+    @media only screen and (max-width: 700px) { 
+        .title2{
+            z-index: -1;
+            position:sticky;
+            right:0%;
+            margin-bottom:5%;
+            font-family: 'Secular One', sans-serif;
+            font-size: 2vw;
+        }}
+        
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    @media only screen and (min-width: 700px) { 
+    p{
+        margin-bottom:50px;
+        margin-top:0%;
+    }}
+    @media only screen and (max-width: 700px) { 
+        p{
+            position:static;
+            margin-bottom:15px;
+            margin-top:0%;
+        }}
+    img{
+        width:100%;
+    }
+    @media only screen and (min-width: 700px) { 
+    .padding{
+        padding-bottom: 50%;
+    }}
+    /* @keyframes box1 {
+        0%{width:20%;border-radius: 25px;background-color: rgb(59, 59, 59);color:white;}
+        100%{width:80%;border-radius: 0px;background-color: rgb(255, 255, 255);color:black;box-shadow: 15px 0px 0px 0px rgb(0, 0, 0);}
+    
+    }
+    @keyframes box2 {
+        0%{width:30%;border-radius: 25px;background-color: rgb(59, 59, 59);color:white;}
+        100%{width:80%;border-radius: 0px;background-color: rgb(255, 255, 255);color:black;box-shadow: 15px 0px 0px 0px rgb(0, 0, 0);}
+     */
+    /* } */
+    @keyframes title {
+        0%{opacity: 0;translate:20px 0px;}
+        100%{opacity: 1;translate:0px 0px;}
+    }
+
+    .vertical-line {
+        border-left: 2px solid black;
+        height: 1500px;
+        position: fixed;
+        margin-left: 480px;
+        top: 50px;
+      }
+      .group-image {
+        position: fixed;
+        bottom: 30px;
+        right: 330px; /* Update to move the image to the right */
+        width: 500px; /* Update to make it five times bigger */
+        height: 550px; /* To maintain the aspect ratio */
+        width: 670px;
+        transform: translate(30, 0%);
+        border: 15px solid rgb(255, 113, 100);
+      }
